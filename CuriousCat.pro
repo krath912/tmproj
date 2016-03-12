@@ -13,8 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    danger.cpp \
+    gamemodel.cpp \
+    background.cpp \
+    event.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    danger.h \
+    gamemodel.h \
+    background.h \
+    event.h
 
 FORMS    += mainwindow.ui
