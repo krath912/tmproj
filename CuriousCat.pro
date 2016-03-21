@@ -17,16 +17,21 @@ SOURCES += main.cpp\
     danger.cpp \
     gamemodel.cpp \
     background.cpp \
-    event.cpp
+    event.cpp \
+    highscore.cpp \
+    object.cpp
 
 HEADERS  += mainwindow.h \
     danger.h \
     gamemodel.h \
     background.h \
     event.h \
-    object.h
+    object.h \
+    highscore.h
 
 FORMS    += mainwindow.ui
 
 RESOURCES += \
     Images/resources.qrc
+QMAKE_CXXFLAGS += -std=c++0x
+
